@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(58, 153, 231);
+}
+.cnt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+   
+}
+span{
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    height: 2cm;
+    width: 3cm;
+}
+.good{
+    background-color: rgb(224, 226, 209);
+    height: 160px;
+    width: 400px;
+    border-radius: 20px;
+    padding: 30px;
+    transition: 1s;
+}
+.good:hover{
+    border-radius: 15px;
+    height: 200px;
+}
+h3{
+    justify-content: center;
+    font-weight: bold;
+    
+}

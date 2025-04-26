@@ -1,0 +1,152 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(10, 10, 10);
+    padding: 10px 15px;
+}
+.cnt1{
+     display: flex;
+    border: 1px solid rgb(49, 47, 47);
+    height: 600px;
+    border-radius: 20px;
+    background-color: black;
+    border: none;
+    padding: 2px;
+}
+.left{
+   color: rgb(240, 211, 211);
+   margin-top: 140px;
+   margin-left: 30px;
+   
+}
+.right{
+    margin-left: 400px;
+    margin-top: 30px;
+   color: rgb(255, 251, 0);
+}
+.link {
+    text-decoration: none;
+    color: rgb(245, 228, 80);
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 15px;
+    padding: 5px;
+    border: none;
+    transition: 1s;
+    
+}
+a.link:hover{
+    background-color: yellow;
+    color: black;
+    padding: 10px;
+    font-size: 17px;
+    border: none;
+}
+.button{
+    background-color: rgb(251, 255, 2);
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 15px;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    border: none;
+    transition: 0.5s;
+}
+.button:hover{
+    background-color: rgb(231, 231, 78);
+    color: rgb(0, 0, 0);
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+i{
+    font-size: 50px;
+    cursor: pointer;
+}
+.facebook-icon{
+    color: yellow;
+    border: 1px solid yellow;
+    border-radius: 100%;
+    font-size: 25px;
+    padding: 10px;
+    transition: 1s;
+}
+.facebook-icon:active{
+    box-shadow: 2px 4px 6px blue;
+}
+.instagram-icon{
+    color: yellow;
+    border: 1px solid yellow;
+    border-radius: 100%;
+    font-size: 25px;
+    padding: 10px;
+
+    transition: 1s;
+}
+.instagram-icon:active{
+    box-shadow: 2px 4px 6px#E1306C;
+}
+.github-icon{
+    color: yellow;
+    border: 1px solid yellow;
+    border-radius: 100%;
+    font-size: 25px;
+    padding: 10px;
+    transition: 1s;
+}
+.github-icon:active{
+    box-shadow: 2px 4px 6px white;  
+}
+.whatsapp-icon{
+    color: yellow;
+    border: 1px solid yellow;
+    border-radius: 100%;
+    font-size: 25px;
+    padding: 10px;
+    transition: 1s;
+}
+.whatsapp-icon:active{
+    box-shadow: 2px 4px 6px green;   
+}
+.key{
+    height: 500px;
+    width: 500px;
+    border-radius: 100%;
+    background-image: url(hacker/8.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+h3 {
+    margin-bottom: 10px;
+    color: white;
+}
+legend{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: change 2s infinite;
+
+}
+@keyframes change{
+    0%{
+        text-shadow: 1px 2px 4px red;
+    }
+    20%{
+        text-shadow: 1px 2px 4px rgb(255, 115, 0);
+    }
+    40%{
+        text-shadow: 1px 2px 4px rgb(252, 235, 1);
+    }
+    60%{
+        text-shadow: 1px 2px 4px rgb(21, 255, 0);
+    }
+    80%{
+        text-shadow: 1px 2px 4px rgb(0, 204, 255);
+    }
+    100%{
+        text-shadow: 1px 2px 4px rgb(4, 0, 255);
+    }
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us</title>
+  <link rel="stylesheet" href="home.css">
+  <style>
+    body {
+     
+      font-family: 'Montserrat', sans-serif;
+      background-color: #000000;
+      color: #ffffff;
+    }
+
+    .about-section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      padding: 60px 80px;
+      gap: 50px;
+    }
+
+    .about-image img {
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+
+    .about-text {
+      max-width: 500px;
+      text-align: center;
+    }
+
+    .about-text h2 {
+      font-size: 28px;
+      font-weight: 600;
+      margin-bottom: 10px;
+      position: relative;
+    }
+
+    .about-text h2::after {
+      content: '';
+      display: block;
+      height: 4px;
+      width: 50px;
+      background-color: orange;
+      margin: 10px auto;
+      border-radius: 5px;
+    }
+
+    .about-text p {
+      font-size: 16px;
+      line-height: 1.7;
+      color: #ffffff;
+      margin: 20px 0;
+    }
+
+    @media (max-width: 768px) {
+      .about-section {
+        flex-direction: column;
+        padding: 40px 20px;
+      }
+
+      .about-image img {
+        width: 250px;
+        height: 250px;
+      }
+    }
+    .facebook-icon{
+    color: yellow;
+    border: 1px solid yellow;
+    border-radius: 100%;
+    font-size: 25px;
+    padding: 10px;
+    transition: 1s;
+}
+.facebook-icon:active{
+    box-shadow: 2px 4px 6px blue;
+}
+.instagram-icon{
+    color: yellow;
+    border: 1px solid yellow;
+    border-radius: 100%;
+    font-size: 25px;
+    padding: 10px;
+
+    transition: 1s;
+}
+.instagram-icon:active{
+    box-shadow: 2px 4px 6px#E1306C;
+}
+.github-icon{
+    color: yellow;
+    border: 1px solid yellow;
+    border-radius: 100%;
+    font-size: 25px;
+    padding: 10px;
+    transition: 1s;
+}
+.github-icon:active{
+    box-shadow: 2px 4px 6px white;  
+}
+.whatsapp-icon{
+    color: rgb(255, 255, 255);
+    border: 1px solid yellow;
+    border-radius: 100%;
+    font-size: 25px;
+    padding: 10px;
+    transition: 1s;
+}
+.whatsapp-icon:active{
+    box-shadow: 2px 4px 6px green;   
+}
+.right1{
+    margin-left: 800px;
+    margin-top: 30px;
+   color: rgb(255, 251, 0);
+}
+
+  </style>
+</head>
+<body>
+  <div class="right1">
+    <a href="index.html" class="link">HOME</a>&nbsp;&nbsp;
+    <a href="skills.html" class="link">SKILLS</a>&nbsp;&nbsp;
+    <a href="about.html" class="link">ABOUT US</a>&nbsp;&nbsp;
+    <a href="contact.html" class="link">CONTACT US</a>&nbsp;&nbsp;
+    <a href="https://github.com/kenedy12a?tab=repositories" class="link">GALLERY</a>
+</div>
+
+  <section class="about-section">
+    <div class="about-image">
+      <img src="WhatsApp Image 2025-04-15 at 10.20.02_51f085e5.jpg" alt="About Us Image">
+    </div>
+    <div class="about-text">
+      <h2>ABOUT US</h2>
+      <p>
+        At Coffee House in Berndorf, Germany, we pride ourselves on being a go-to destination for coffee lovers and conversation seekers alike. We’re dedicated to providing an exceptional coffee experience in a cozy and inviting atmosphere, where guests can relax, unwind, and enjoy their time in comfort.
+      </p>
+      <div class="social-icons">
+       <a href="https://www.facebook.com/cyiza kenedy" target="_blank"><i class="fab fa-facebook facebook-icon"></i></a> &nbsp;&nbsp;&nbsp;
+       <a href=""><i class="fab fa-instagram instagram-icon"></i></a> &nbsp;&nbsp;&nbsp;
+       <a href="https://www.github.com/cyiza kenedy" target="_blank"><i class="fab fa-github github-icon"></i></a> &nbsp;&nbsp;&nbsp;
+       <a href="https://wa.me/250726665798" target="_blank"><i class="fab fa-whatsapp whatsapp-icon"></i></a>
+      
+    </div>
+  </section>
+
+</body>
+</html>

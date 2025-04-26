@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            color: yellow;
+            margin: 1px;
+        }
+        fieldset{
+            height: 500px;
+            width: 500px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            min-height: 5vh;
+            border-radius: 20px;
+            border: 2px solid yellow;
+        }
+        .input{
+            height: 30px;
+            width: 350px;
+            outline: none;
+            border: none;
+            border-bottom: 3px solid yellow;
+            font-size: 20px;
+            background-color: black;
+            color: aliceblue;
+            font-weight: bold;
+        }
+        .input1{
+            height: 55px;
+            width: 350px;
+            outline: none;
+            background-color: rgba(212, 208, 208, 0.973);
+            background-color: black;
+            color: white;
+        }
+    div{
+        justify-content: center;
+            align-items: center;
+            display: flex;
+            min-height: 10vh;
+    }
+    .hover{
+        height: 40px;
+        width: 175px;
+        border-radius: 20px;
+        background-color: black;
+        color: white;
+        border: 1px solid yellow;
+        transition: 0.50s;
+    }
+    .hover:hover{
+        background-color: yellow;
+        color: black;
+
+    }
+   textarea{
+    border: 1px solid yellow;
+   }
+    </style>
+</head>
+<link rel="stylesheet" href="link.css">
+<body>
+    <div class="right1">
+        <a href="index.html" class="link">HOME</a>&nbsp;&nbsp;
+        <a href="skills.html" class="link">SKILLS</a>&nbsp;&nbsp;
+        <a href="about.html" class="link">ABOUT US</a>&nbsp;&nbsp;
+        <a href="contact.html" class="link">CONTACT US</a>&nbsp;&nbsp;
+        <a href="https://github.com/kenedy12a?tab=repositories" class="link">GALLERY</a>
+    </div>
+
+    <div>
+    <fieldset>
+        
+    <form>
+        <span>
+        <label for="name">NAME</label> <br>
+        <input type="text" name="name" class="input"required><br><br>
+        <label for="number">EMAIL</label><br>
+        <input type="email" name="number" class="input" required>
+         <br><br>
+         <label for="message">comment..</comment></label><br>
+         <span>
+         <textarea class="input1" placeholder="message.." required ></textarea>
+        </span>
+         <br><br><br>
+
+         <button id="buu" class="hover">submite</button>
+         &nbsp;
+         <input type="reset" name="clean" value="clear" class="hover">
+        </span>
+
+      
+   
+</fieldset>
+</div>
+
+
+
+</div>
+</body>
+</html>

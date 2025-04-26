@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            color: yellow;
+        }
+        fieldset{
+            height: 500px;
+            width: 500px;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            min-height: 10vh;
+            border-radius: 20px;
+            border: 2px solid yellow;
+        }
+        .input{
+            height: 30px;
+            width: 350px;
+            outline: none;
+            border: none;
+            border-bottom: 3px solid yellow;
+            font-size: x-large;
+            background-color: black;
+            color: aliceblue;
+        }
+        .input1{
+            height: 55px;
+            width: 350px;
+            outline: none;
+            background-color: rgba(212, 208, 208, 0.973);
+            background-color: black;
+            color: white;
+        }
+    div{
+        justify-content: center;
+            align-items: center;
+            display: flex;
+            min-height: 50vh;
+    }
+    .hover{
+        height: 40px;
+        width: 175px;
+        border-radius: 20px;
+        background-color: black;
+        color: white;
+        border: 1px solid yellow;
+    }
+    .hover:hover{
+        background-color: yellow;
+        color: black;
+
+    }
+    th{
+        background-color: yellow;
+        color: black;
+    }
+    table{
+        color: white;
+        border-left: 2px dotted yellow;
+        border-top: 2px dotted yellow;
+        border: 2px yellow;
+    }
+    </style>
+</head>
+<body>
+    <div>
+    <fieldset>
+        
+    <form>
+        <span>
+        <label for="name">NAME</label> <br>
+        <input type="text" name="name" id="name" class="input" placeholder="name" required><br><br>
+        <label for="number">TELPHONE</label><br>
+        <input type="number" name="number" id="number" class="input" required>
+         <br><br>
+         <label for="explain">DISCRIBE YOUR SELF</label><br>
+         <span>
+         <textarea id="explain" class="input1" required></textarea>
+        </span>
+         <br><br><br>
+
+         <button id="buu" class="hover">submite</button>
+         &nbsp;
+         <input type="reset" name="clean" value="clear" class="hover">
+        </span>
+
+      
+   
+</fieldset>
+</div>
+<div>
+
+<table border="1" cellpadding="30px" cellspacing="0">
+    <tr>
+        <th>NAME</th>
+        <th>TELPHONE</th>
+        <th>GENDER</th>
+        <th>DISCRIBE YOUR SELF</th>
+    </tr>
+    <tr>
+        <td id="name1"></td>
+        <td id="number1"></td>
+        <td> 
+            <input type="radio" name="1" id="M" required>M
+            <input type="radio" name="1" id="F" required>F
+        </td>
+        <td id="explain1"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td>
+            <input type="radio" name="2" id="M" required>M
+            <input type="radio" name="2" id="F" required>F
+        </td>
+        <td></td>
+    </tr>
+</table>
+<script>
+    document.getElementById("buu").onclick = function(){
+        let name = 
+        document.getElementById("name").value;
+
+        document.getElementById("name1").textContent = name;
+
+        let number =
+        document.getElementById("number").value;
+
+        document.getElementById("number1").textContent = number;
+
+        let explain = 
+        document.getElementById("explain").value;
+
+        document.getElementById("explain1").textContent = explain;
+
+        
+    }
+</script>
+</div>
+</body>
+</html>
