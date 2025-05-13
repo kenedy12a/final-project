@@ -1,4 +1,4 @@
-@media screen and (min-width: 992px) {
+
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(10, 10, 10);
@@ -17,7 +17,7 @@ body{
 .left{
    color: rgb(240, 211, 211);
    margin-top: 140px;
-   margin-left: 30px;
+   margin-left: -600px;
    
 }
 .right{
@@ -33,7 +33,7 @@ body{
     padding: 5px;
     border: none;
     transition: 1s;
-    
+    /* margin-left: 100px; */
 }
 a.link:hover{
     background-color: yellow;
@@ -127,6 +127,7 @@ h3 {
 }
 legend{
     color: rgb(255, 255, 255);
+    margin-left: 100px;
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     animation: change 2s infinite;
@@ -153,100 +154,3 @@ legend{
     }
 }
 
-}
-
-
-/* Mobile styles - for phones */
-
-  @media screen and (max-width: 767px) {
-    body {
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        background-color: rgb(10, 10, 10);
-        padding: 10px;
-        margin: 0;
-      }
-      
-      .cnt1 {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        border-radius: 20px;
-        background-color: black;
-        padding: 20px;
-        height: 1000px;
-      }
-      
-      .left {
-        text-align: center;
-        color: rgb(240, 211, 211);
-      }
-      
-      .left h1 {
-        font-size: 24px;
-      }
-      
-      .left p {
-        font-size: 16px;
-        line-height: 1.6;
-      }
-      
-      .button {
-        display: inline-block;
-        background-color: rgb(251, 255, 2);
-        color: black;
-        padding: 10px 20px;
-        margin: 10px 5px;
-        border-radius: 30px;
-        text-decoration: none;
-        font-size: 14px;
-        transition: 0.5s;
-      }
-      
-      .button:hover {
-        background-color: rgb(231, 231, 78);
-      }
-      
-      .facebook-icon,
-      .instagram-icon,
-      .github-icon,
-      .whatsapp-icon {
-        color: yellow;
-        border: 1px solid yellow;
-        border-radius: 50%;
-        font-size: 20px;
-        padding: 10px;
-        margin: 5px;
-        transition: 0.3s;
-      }
-      
-      .right {
-        text-align: center;
-      }
-      
-      .link {
-        display: flex;
-        color: rgb(245, 228, 80);
-        text-decoration: none;
-        font-size: 16px;
-        margin: 10px 0;
-        transition: 0.3s;
-      }
-      
-      .link:hover {
-        background-color: yellow;
-        color: black;
-        padding: 10px;
-      }
-      
-      .key {
-        height: 300px;
-        width: 300px;
-        border-radius: 50%;
-        background-image: url("hacker/8.jpg");
-        background-size: cover;
-        background-position: center;
-        margin: 0 auto;
-      }
-      
-  }
-  
